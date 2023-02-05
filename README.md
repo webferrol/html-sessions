@@ -1,4 +1,5 @@
 # Sesión 1 HTML
+
  MF 0491_3
  UF 1841 
  5 de 60 Horas
@@ -6,17 +7,28 @@
 - Darse de alta en classroom
 
 ## ¿Qué es HTML?
+
 [Guías Bluuweb, HTML Fundamentos](https://bluuweb.dev/01-html/)
 
 El __<abbr title="Lenguaje de Marcado de Hipertexto">HTML</abbr>__ es el código que se utiliza para __estructurar__ y desplegar una __página web__ y sus contenidos.
 
-  Pregunta
-  ¿Quién inventó el HTML? ¿Qué otras contribuciones hizo para el desarrollo web?
+<dl>
+    <dt>
+        HTML
+    </dt>
+    <dd>
+    <abbr title="Hipertext Markup Language">HTML</abbr> cómo indica su acrónimo es un "lenguaje de marcas" (ML) para <em>estructurar</em> (las propias etiquetas son semánticas) el contenido en dichas marcas (en adelante <strong>tags</strong>) 
+    </dd>
+</dl>
 
 En resumen __HTML__:
 - Utiliza tags
 - Por la característica anterior se le llama __markup language__
 - Estructura contenido
+
+## Pregunta
+
+¿Quién inventó el HTML? ¿Qué otras contribuciones hizo para el desarrollo web?
 
 ## Hola mundo
 
