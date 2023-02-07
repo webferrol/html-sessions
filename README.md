@@ -66,7 +66,7 @@ En resumen __HTML__:
     <dd>
         Se trata de un acrónimo es un "lenguaje de marcas" (ML) para <em>estructurar</em> (las propias etiquetas son semánticas) el contenido en dichas marcas
     <dd>
-        </dl>
+</dl>
 ```
 ## Ejercicios de refuerzo
 
