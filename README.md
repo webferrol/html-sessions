@@ -10,7 +10,7 @@
         <abbr title="Hipertext Language Markup">HTML</abbr>
     </dt>
     <dd>
-    <abbr title="Hipertext Markup Language">HTML</abbr> cómo indica su acrónimo es un "lenguaje de marcas" (ML) para <em>estructurar</em> (las propias etiquetas son semánticas) el contenido en dichas marcas (en adelante <strong>tags</strong>) 
+    <abbr title="Hipertext Markup Language">HTML</abbr> como indica su acrónimo es un "lenguaje de marcas" (ML) para <em>estructurar</em> (las propias etiquetas son semánticas) el contenido en dichas marcas (en adelante <strong>tags</strong>) 
     </dd>
 </dl>
 
@@ -40,33 +40,66 @@ En resumen __HTML__:
 
 ¿Quién inventó el HTML? ¿Qué otras contribuciones hizo para el desarrollo web?
 
-## Ejercicio de refuerzo
 
-A partir de la siguiente captura elaborar el documento HTML correcto
-
-![Primeras tags en HTML](./screenshot.png)
-
-- [Enlace al texto](./text.txt)
-- [Enlace de etiquetas](https://allthetags.com/)
-- Puedes utilizar la herramienta [www.w3chools.com](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
-
-# Sesión 2
+## Listas
 
 ```html
+<!-- Unordered List -->
 <ul>
     <li>Elemento 1</li>
     <li>Elemento 2</li>
-    <li>Elemento 3</li>
-    <li>Elemento 4</li>
+    ...
+    <li>Elemento N</li>
 </ul>
 
-<!-- Más conocida como lista ordenada -->
+<!-- Ordered List -->
 <ol>
     <li>Elemento 1</li>
     <li>Elemento 2</li>
     ...
     <li>Elemento N</li>
 </ol>
+
+<!-- Definition List -->
+<dl>
+    <dt><abbr title="Hipertext Markup Language">HTML</abbr></dt>
+    <dd>
+        Se trata de un acrónimo es un "lenguaje de marcas" (ML) para <em>estructurar</em> (las propias etiquetas son semánticas) el contenido en dichas marcas
+    <dd>
+        </dl>
 ```
-- Ejercicio de refuerzo intenta recrear la lista de la siguiente imagen
-![Listas anidadas](/listas-anidadas.jpg)
+## Ejercicios de refuerzo
+
+1. A partir de la siguiente captura elaborar el documento HTML correcto
+
+![Primeras tags en HTML](/img/screenshot.png)
+
+- [Enlace al texto](./text.txt)
+- [Enlace de etiquetas](https://allthetags.com/)
+- Puedes utilizar la herramienta [www.w3chools.com](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+
+2. Recrear la lista de la imagen
+
+![Ejercicio de listas anidadas](/img/listas.png)
+
+3. Recrear la siguiente captura de pantalla
+
+![Mi página magnífica página web](/img/screenshot2.png)
+
+Consideraciones
+
+- La ruta de la imagen es en remoto y es la siguiente:
+https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png
+
+- El botón nos llevará a la siguiente dirección:
+https://www.youtube.com/bluuweb
+
+# Sesión 3
+
+- [Etiquetas semánticas](https://bluuweb.dev/01-html/#etiquetas-semanticas)
+
+![Etiquetas semánticas](/img/estructura-html5.png)
+
+1. Ejercicio. Recrea la siguiente imagen
+
+![Captura](/img/screenshot3.png)
