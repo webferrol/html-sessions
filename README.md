@@ -191,9 +191,9 @@ https://www.youtube.com/bluuweb
 
 ## Control form tags
 
-[Formularios](https://drive.google.com/file/d/1OB9VaxghLiUYWOD1yshYLRkYaFqhTWIV/view?usp=sharing)
-[input](https://bluuweb.dev/01-html/02-html-intermedio.html#input-1)
-[Si quieres practicar en casa](https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/formularios/anexo_formularios.html)
+- [Forms, apuntes Xurxo](https://drive.google.com/file/d/1OB9VaxghLiUYWOD1yshYLRkYaFqhTWIV/view?usp=sharing)
+- [Form control input, de bluuweb](https://bluuweb.dev/01-html/02-html-intermedio.html#input-1)
+- [Si quieres practicar en casa, aquí ejercicios resueltos.](https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/formularios/anexo_formularios.html)
 
 ```html
 <form action="/admin.php" method="post">
