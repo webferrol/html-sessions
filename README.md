@@ -2,6 +2,7 @@
  
 - UF1841 ELABORACIÓN DE DOCUMENTOS WEB MEDIANTE LENGUAJES DE MARCAS
 - [Guías Bluuweb, HTML Fundamentos](https://bluuweb.dev/01-html/)
+- [Guía Buuweb, HTML intermedio](https://bluuweb.dev/01-html/02-html-intermedio.html)
 
 ## ¿Qué es HTML?
 
@@ -19,7 +20,7 @@ En resumen __HTML__:
 - Por la característica anterior se le llama (Hipertext) __markup language__
 - __Estructura__ contenido
 
-El inventor de <abbr title="Hipertext Markup Language">HTML</abbr> fue __Tim Berners Lee__. Y entre otros logros se encuentran __git__ o el _protocólo_ __http__
+El inventor de <abbr title="Hipertext Markup Language">HTML</abbr> fue __Tim Berners-Lee__. Y entre otros logros se encuentran __git__ o el _protocólo_ __http__
 
 ## Hola mundo
 
@@ -116,49 +117,12 @@ Ejemplo básico de una __página web__:
 ```
 
 ## Etiquetas semánticas
-- [Etiquetas semánticas](https://bluuweb.dev/01-html/#etiquetas-semanticas)
 
 ![Etiquetas semánticas](/img/estructura-html5.png)
-
-## Ejercicios de refuerzo
-
-1. A partir de la siguiente captura elaborar el documento HTML correcto
-
-![Primeras tags en HTML](/img/screenshot.png)
-
-- [Enlace al texto](./text.txt)
-- [Enlace de etiquetas](https://allthetags.com/)
-- Puedes utilizar la herramienta [www.w3chools.com](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
-
-2. Recrear la lista de la imagen
-
-![Ejercicio de listas anidadas](/img/listas.png)
-
-3. Recrear la siguiente captura de pantalla
-
-![Mi página magnífica página web](/img/screenshot2.png)
-
-Consideraciones
-
-- La ruta de la imagen es en remoto y es la siguiente:
-https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png
-
-- El botón nos llevará a la siguiente dirección:
-https://www.youtube.com/bluuweb
-
-4. Ejercicio. Recrea la siguiente imagen
-
-![Captura](/img/screenshot3.png)
-
-
-## Sesión 4
-
 ## Tablas
 
-- [bluuweb - Nivel intermedio](https://bluuweb.dev/01-html/02-html-intermedio.html)
-- [Documentación tablas](./assets/mf0491_3-uf1841_4-html.pdf)
-
 ```html
+<!-- RECUERDA QUE PONER EL atributo "border" ES MALA PRÁCTICA -->
 <table border='1'>
     <caption>Titulo de la tabla</caption>
     <!-- Encabezado -->
@@ -192,3 +156,69 @@ https://www.youtube.com/bluuweb
     </tbody>
 </table>
 ```
+
+## Ejercicios de refuerzo
+
+1. A partir de la siguiente captura elaborar el documento HTML correcto
+
+![Primeras tags en HTML](/img/screenshot.png)
+
+- [Enlace al texto](./text.txt)
+- [Enlace de etiquetas](https://allthetags.com/)
+- Puedes utilizar la herramienta [www.w3chools.com](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+
+2. Recrear la lista de la imagen
+
+![Ejercicio de listas anidadas](/img/listas.png)
+
+3. Recrear la siguiente captura de pantalla
+
+![Mi página magnífica página web](/img/screenshot2.png)
+
+Consideraciones
+
+- La ruta de la imagen es en remoto y es la siguiente:
+https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png
+
+- El botón nos llevará a la siguiente dirección:
+https://www.youtube.com/bluuweb
+
+4. Ejercicio. Recrea la siguiente imagen
+
+![Captura](/img/screenshot3.png)
+
+## Sesión 5
+
+## Control form tags
+
+[Formularios](https://drive.google.com/file/d/1OB9VaxghLiUYWOD1yshYLRkYaFqhTWIV/view?usp=sharing)
+[input](https://bluuweb.dev/01-html/02-html-intermedio.html#input-1)
+[Si quieres practicar en casa](https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/formularios/anexo_formularios.html)
+
+```html
+<form action="/admin.php" method="post">
+<label for="curso">Curso: </label>
+<input id="curso" type="text" placeholder="Ingrese un curso" name="curso" />
+<button type="submit">Enviar</button>
+</form>
+
+```
+
+6. Crea un formulario como este donde haya 3 opciones en la lista desplegable: «Más de 400», «Menos de 400», «Variables»
+
+![Ejercicio de formularios](./img/form1.png)
+
+7. Crea un formulario como este
+
+![Ejercicio de formularios 2](./img/form2.png)
+
+8. Generar el formulario siguiente de acuerdo a los siguientes requisitos:
+
+    - Contiene los siguientes radiobuttons:radio con el name «idioma» , value «idiomaingles» y el texto «Inglés», radio con el name «idioma» , value «idiomaaleman» y el texto «Alemán», radio con el name «idioma» , value «idiomafrances» y el texto «Francés».
+    - Hay una lista desplegable con el name «conector» y con las siguientes opciones: opción «USB» con el value usb, opción «Paralelo» con el value paralelo, opción «PS2» con el value ps2.
+    - Hay los siguientes cuadros de texto:cuadro de texto con el texto «Nombre» y el name nombre, cuadro de texto con el texto «Apellidos» y el name apellidos
+    - Hay una lista desplegable múltiple con el name «sexo» y con las siguientes opciones: opción «Hombre» con el value hombre, opción «Mujer» con el value mujer.
+    - Contiene los siguientes checkboxes:checkbox con el name «sexo» , value «sexomujer» y el texto «Mujer», checkbox con el name «sexo» , value «sexohombre» y el texto «Hombre».
+    - Hay un control para indicar la fecha.
+
+![Ejercicio de formularios 1](./img/form3.png)
