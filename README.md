@@ -208,9 +208,13 @@ https://www.youtube.com/bluuweb
 
 ![Ejercicio de formularios](./img/form1.png)
 
+[Solución](./forms/form1.md)
+
 7. Crea un formulario como este
 
 ![Ejercicio de formularios 2](./img/form2.png)
+
+[Solución](./forms/form2.md)
 
 8. Generar el formulario siguiente de acuerdo a los siguientes requisitos:
 
