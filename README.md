@@ -75,7 +75,7 @@ Ejemplo básico de una __página web__:
 
 ```html
 <div>Block element.</div>
-<span>Inline element.</h2>
+<span>Inline element.</span>
 ```
 
 ## Anchor and image tags
