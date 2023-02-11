@@ -156,6 +156,20 @@ Ejemplo básico de una __página web__:
     </tbody>
 </table>
 ```
+## Control form tags
+
+- [Forms, apuntes Xurxo](https://drive.google.com/file/d/1OB9VaxghLiUYWOD1yshYLRkYaFqhTWIV/view?usp=sharing)
+- [Form control input, de bluuweb](https://bluuweb.dev/01-html/02-html-intermedio.html#input-1)
+- [Si quieres practicar en casa, aquí ejercicios resueltos.](https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/formularios/anexo_formularios.html)
+
+```html
+<form action="/admin.php" method="post">
+<label for="curso">Curso: </label>
+<input id="curso" type="text" placeholder="Ingrese un curso" name="curso" />
+<button type="submit">Enviar</button>
+</form>
+
+```
 
 ## Ejercicios de refuerzo
 
@@ -187,22 +201,6 @@ https://www.youtube.com/bluuweb
 
 ![Captura](/img/screenshot3.png)
 
-## Sesión 5
-
-## Control form tags
-
-- [Forms, apuntes Xurxo](https://drive.google.com/file/d/1OB9VaxghLiUYWOD1yshYLRkYaFqhTWIV/view?usp=sharing)
-- [Form control input, de bluuweb](https://bluuweb.dev/01-html/02-html-intermedio.html#input-1)
-- [Si quieres practicar en casa, aquí ejercicios resueltos.](https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/formularios/anexo_formularios.html)
-
-```html
-<form action="/admin.php" method="post">
-<label for="curso">Curso: </label>
-<input id="curso" type="text" placeholder="Ingrese un curso" name="curso" />
-<button type="submit">Enviar</button>
-</form>
-
-```
 
 6. Crea un formulario como este donde haya 3 opciones en la lista desplegable: «Más de 400», «Menos de 400», «Variables»
 
