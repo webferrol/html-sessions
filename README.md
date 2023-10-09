@@ -29,7 +29,7 @@ __Tabla de contenidos__
         <abbr title="Hipertext Language Markup">HTML</abbr>
     </dt>
     <dd>
-    <abbr title="Hipertext Markup Language">HTML</abbr> como indica su acrónimo (_Hipertext Markup Language_) es un "lenguaje de marcas" (ML) para <em>estructurar</em> (las propias etiquetas son semánticas) el contenido en dichas marcas (en adelante <strong>tags</strong>) 
+    <abbr title="Hipertext Markup Language">HTML</abbr> como indica su acrónimo (<em>Hipertext Markup Language</em>) es un "lenguaje de marcas" (ML) para <em>estructurar</em> (las propias etiquetas son semánticas) el contenido en dichas marcas (en adelante <strong>tags</strong>) 
     </dd>
 </dl>
 
