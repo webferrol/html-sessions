@@ -1,9 +1,23 @@
 # MF0491_3 PROGRAMACIÓN WEB EN EL ENTORNO CLIENTE
+
+[Invitación a HTML Classroom](https://classroom.google.com/c/NTg4NjkwMjYyODkw?cjc=nbgwbhr)
+[Invitación a VSC Classroom](https://classroom.google.com/c/NTg0Nzk5MTEzNTkx?cjc=kc36k4h)
+[Guías Bluuweb, HTML Fundamentos](https://bluuweb.dev/01-html/)
+[Guía Buuweb, HTML intermedio](https://bluuweb.dev/01-html/02-html-intermedio.html)
+
+
+__Tabla de contenidos__
+
+- [¿Qué es HTML?](#¿qué-es-html)
+- [Etiquetas de formato](#html-format-tags)
+- [Etiquetas de encabezado](#head-tags)
+- [Etiquetas de división](#divisions-tags)
+- [Enlaces e imágenes](#anchor-and-image-tags)
+- [Listas ordenadas/desordenadas](#list-tags)
+- [Etiquetas semánticas](#etiquetas-semánticas)
+- [Etiquetas de formulario](#control-form-tags)
+- [Ejercicios de refuerzo](#ejercicios-de-refuerzo)
  
-- UF1841 ELABORACIÓN DE DOCUMENTOS WEB MEDIANTE LENGUAJES DE MARCAS
-- [Classroom](https://classroom.google.com/c/NTg4NjkwMjYyODkw?cjc=nbgwbhr)
-- [Guías Bluuweb, HTML Fundamentos](https://bluuweb.dev/01-html/)
-- [Guía Buuweb, HTML intermedio](https://bluuweb.dev/01-html/02-html-intermedio.html)
 
 ## ¿Qué es HTML?
 
@@ -12,7 +26,7 @@
         <abbr title="Hipertext Language Markup">HTML</abbr>
     </dt>
     <dd>
-    <abbr title="Hipertext Markup Language">HTML</abbr> como indica su acrónimo es un "lenguaje de marcas" (ML) para <em>estructurar</em> (las propias etiquetas son semánticas) el contenido en dichas marcas (en adelante <strong>tags</strong>) 
+    <abbr title="Hipertext Markup Language">HTML</abbr> como indica su acrónimo (_Hipertext Markup Language_) es un "lenguaje de marcas" (ML) para <em>estructurar</em> (las propias etiquetas son semánticas) el contenido en dichas marcas (en adelante <strong>tags</strong>) 
     </dd>
 </dl>
 
@@ -207,13 +221,11 @@ https://www.youtube.com/bluuweb
 
 ![Ejercicio de formularios](./img/form1.png)
 
-[Solución](./forms/form1.md)
 
 7. Crea un formulario como este
 
 ![Ejercicio de formularios 2](./img/form2.png)
 
-[Solución](./forms/form2.md)
 
 8. Generar el formulario siguiente de acuerdo a los siguientes requisitos:
 
