@@ -12,6 +12,7 @@
 __Tabla de contenidos__
 
 - [¿Qué es HTML?](#¿qué-es-html)
+- [Comentarios en HTML](#comentarios-en-html)
 - [Etiquetas de formato](#html-format-tags)
 - [Etiquetas de encabezado](#head-tags)
 - [Etiquetas de división](#divisions-tags)
@@ -29,21 +30,42 @@ __Tabla de contenidos__
         <abbr title="Hipertext Language Markup">HTML</abbr>
     </dt>
     <dd>
-    <abbr title="Hypertext Markup Language">HTML</abbr> como indica su acrónimo (<em>Hipertext Markup Language</em>) es un "lenguaje de marcas" (ML) para <strong>estructurar</strong> (las propias etiquetas son semánticas) el contenido en dichas marcas (en adelante <em>tags</em>) 
+    <abbr title="Hypertext Markup Language">HTML</abbr> como indica su acrónimo (<em>Hipertext Markup Language</em>) es un <strong>lenguaje de marcas</strong> (ML) para describir la <strong>estructura</strong> de una página web. 
     </dd>
 </dl>
 
 En resumen __HTML__:
 - Utiliza __tags__
-- Por la característica anterior se le llama (Hipertext) __markup language__
+- Por la característica anterior se le llama (Hypertext) __markup language__
 - __Estructura__ contenido
 
-El inventor de <abbr title="Hipertext Markup Language">HTML</abbr> fue __Tim Berners-Lee__. Y entre otros logros se encuentran __git__ o el _protocólo_ __http__
+El inventor de <abbr title="Hypertext Markup Language">HTML</abbr> fue __Tim Berners-Lee__. Y entre otros logros se encuentran __git__ o el _protocólo_ __http__
 
 
 ### Nomenclatura 
 
 ![nomemenclatura](./img/html-elements-diagram.webp)
+
+### Atributos globales
+
+Todos los elementos pueden tener dichos atributos.
+
+Ejemplos:
+
+- id
+- class
+- lang
+- hidden
+
+### Atributos específicos
+
+Son propiedades particulares de un o unos pocos elementos HTML
+
+Ejemplos:
+
+- name
+- src
+- alt
 
 ### Hola mundo
 
@@ -66,6 +88,13 @@ Ejemplo básico de una __página web__, en este caso [hello world](hellow-world.
 ### Qué NO es HTML
 
 - Lenguaje de presentación. Esto es, no diseña es estilo o diseño de la página
+
+## Comentarios en HTML
+
+En cualquier lenguaje a los programadores les gusta realizar comentarios en el propio documento con el fin de recordar, reseñar información que no sea visible. En HTML el comentario tiene la siguiente forma:
+
+    <!-- Este es un comentario -->
+
 
 ## HTML format tags
 
@@ -250,3 +279,8 @@ https://www.youtube.com/bluuweb
     - Hay un control para indicar la fecha.
 
 ![Ejercicio de formularios 1](./img/form3.png)
+
+## Pruebas de conocimiento
+
+- [Prueba técnica 1](./pruebas-tecnicas/01-prueba-conocimientos.md)
+
