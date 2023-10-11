@@ -29,7 +29,7 @@ __Tabla de contenidos__
         <abbr title="Hipertext Language Markup">HTML</abbr>
     </dt>
     <dd>
-    <abbr title="Hipertext Markup Language">HTML</abbr> como indica su acrónimo (<em>Hipertext Markup Language</em>) es un "lenguaje de marcas" (ML) para <em>estructurar</em> (las propias etiquetas son semánticas) el contenido en dichas marcas (en adelante <strong>tags</strong>) 
+    <abbr title="Hypertext Markup Language">HTML</abbr> como indica su acrónimo (<em>Hipertext Markup Language</em>) es un "lenguaje de marcas" (ML) para <strong>estructurar</strong> (las propias etiquetas son semánticas) el contenido en dichas marcas (en adelante <em>tags</em>) 
     </dd>
 </dl>
 
@@ -40,22 +40,32 @@ En resumen __HTML__:
 
 El inventor de <abbr title="Hipertext Markup Language">HTML</abbr> fue __Tim Berners-Lee__. Y entre otros logros se encuentran __git__ o el _protocólo_ __http__
 
-## Hola mundo
 
-Ejemplo básico de una __página web__:
+### Nomenclatura 
+
+![nomemenclatura](./img/html-elements-diagram.webp)
+
+### Hola mundo
+
+Ejemplo básico de una __página web__, en este caso [hello world](hellow-world.html):
 
 ```html
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <title>Mi página de prueba</title>
-    </head>
-    <body>
-        <p>Hola mundo HTML!</p>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera página WEB</title>
+</head>
+<body>
+  <h1>Hello World!!!</h1>
+</body>
 </html>
 ```
+
+### Qué NO es HTML
+
+- Lenguaje de presentación. Esto es, no diseña es estilo o diseño de la página
 
 ## HTML format tags
 
