@@ -290,6 +290,8 @@ https://www.youtube.com/bluuweb
 
 ![Captura](/img/screenshot3.png)
 
+5. Descárgate el siguiente [fichero](./pruebas-tecnicas/02-etiquetas-semanticas.html) y coloca las etiquetas semánticas correspondientes.
+
 
 6. Crea un formulario como este donde haya 3 opciones en la lista desplegable: «Más de 400», «Menos de 400», «Variables»
 
