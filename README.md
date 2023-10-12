@@ -1,8 +1,12 @@
-# MF0491_3 PROGRAMACIÓN WEB EN EL ENTORNO CLIENTE
+# HTML
 
 [Invitación a HTML Classroom](https://classroom.google.com/c/NTg4NjkwMjYyODkw?cjc=nbgwbhr)
 
 [Invitación a VSC Classroom](https://classroom.google.com/c/NTg0Nzk5MTEzNTkx?cjc=kc36k4h)
+
+
+<img width="400" alt="My ability to code" src="./img/my-ability-to-code.jpg" loading="lazy">
+
 
 [Guías Bluuweb, HTML Fundamentos](https://bluuweb.dev/01-html/)
 
@@ -15,10 +19,10 @@ __Tabla de contenidos__
 - [Comentarios en HTML](#comentarios-en-html)
 - [Etiquetas de formato](#html-format-tags)
 - [Etiquetas de encabezado](#head-tags)
-- [Etiquetas de división](#divisions-tags)
 - [Enlaces e imágenes](#anchor-and-image-tags)
 - [Listas ordenadas/desordenadas](#list-tags)
 - [Etiquetas semánticas](#etiquetas-semánticas)
+- [Etiquetas no semánticas](#etiquetas-no-semánticas-divisions-tags)
 - [Etiquetas de formulario](#control-form-tags)
 - [Ejercicios de refuerzo](#ejercicios-de-refuerzo)
  
@@ -87,7 +91,11 @@ Ejemplo básico de una __página web__, en este caso [hello world](hellow-world.
 
 ### Qué NO es HTML
 
-- Lenguaje de presentación. Esto es, no diseña es estilo o diseño de la página
+- Lenguaje de presentación. Esto es, no estiliza o diseña el contenido de una página
+
+El diseño que observamos en el __user agent__ o navegador se debe a que estos programas llevan integrados sus propias __hojas de estilo__, el lenguaje que da estilo a las páginas.
+
+![Estilos predeterminados del navegador](./img/user-agent-stylesheet.jpg)
 
 ## Comentarios en HTML
 
@@ -128,21 +136,25 @@ En cualquier lenguaje a los programadores les gusta realizar comentarios en el p
 <h6>No existe el "<h7>" por lo tanto está es la última.</h6>
 ```
 
-## Divisions tags
-
-```html
-<div>Block element.</div>
-<span>Inline element.</span>
-```
-
 ## Anchor and image tags
 
-```html
-<a href="https://youtube.com/bluuweb" target="_blank">Ir a página de Google</a>
-```
+### Anchors o links
 
 ```html
-<img src="https://mdn.mozillademos.org/files/11913/htmlexp.png" alt="alternate text" />
+<a href="https://youtube.com/bluuweb">Ir a página de Google</a>
+```
+
+El enlace podemos forzar que abrá a una pestaña nueva utilizando el __atributo__ _target_
+
+```html
+<a target="_blank" rel="noreferrer" href="https://youtube.com/bluuweb">Ir a página de Google</a>
+```
+En el ejemplo de arriba utilizamos un atributo __rel__ con el valor de __noreferrer__. Esto se debe a motivos de seguridad: al abrir una pestaña nueva, que es la página de destino, se puede obtener información de la página de origen.
+
+### Images
+
+```html
+<img src="https://mdn.mozillademos.org/files/11913/htmlexp.png" alt="alternate text" loading="lazy" />
 ```
 
 ## List tags
@@ -156,12 +168,12 @@ En cualquier lenguaje a los programadores les gusta realizar comentarios en el p
     <li>Elemento N</li>
 </ul>
 
-<!-- Ordered List -->
-<ol>
-    <li>Elemento 1</li>
-    <li>Elemento 2</li>
-    ...
-    <li>Elemento N</li>
+<!-- Ordered List. Con atributos que son opcionales -->
+<ol reversed type="1">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li value="5">mySQL</li>
 </ol>
 
 <!-- Definition List -->
@@ -175,7 +187,25 @@ En cualquier lenguaje a los programadores les gusta realizar comentarios en el p
 
 ## Etiquetas semánticas
 
+Hasta ahora hemos visto unas cuantas __etiquetas semánticas__, estos es, son __tags__ que otorgan significado al contenido que vamos creando en nuestras páginas web.
+
+En __HTML5__ disponemos de nuevas etiquetas que dotan de significado a nuestras web y con lo que solemos construir nuestros __layouts__ (estructura principal de nuestra página):
+
 ![Etiquetas semánticas](/img/estructura-html5.png)
+
+### Atributo role
+
+A parte de las __etiquetas semánticas__ cuando no sabemos que tipo asignar a un elemento disponemos del __atributo role__. Por ejemplo
+
+<div role="alert">Este es un mensaje de alerta</div>
+
+## Etiquetas no semánticas (Divisions tags)
+
+```html
+<div>Block element.</div>
+<span>Inline element.</span>
+```
+
 ## Tablas
 
 ```html
