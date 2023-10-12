@@ -197,7 +197,7 @@ En __HTML5__ disponemos de nuevas etiquetas que dotan de significado a nuestras 
 
 A parte de las __etiquetas semánticas__ cuando no sabemos que tipo asignar a un elemento disponemos del __atributo role__. Por ejemplo
 
-```
+```html
 <div role="alert">Este es un mensaje de alerta</div>
 ```
 
