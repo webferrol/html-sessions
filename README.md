@@ -55,9 +55,11 @@ En resumen __HTML__:
 
     ![Estilos predeterminados del navegador](./img/user-agent-stylesheet.jpg)
 
-- Lenguaje imperativo. Se escribe instrucción a instrucción lo que debe hacer el ordenador.
-   
-    __HTML__ no es un lenguaje imperativo porque se utiliza para __describir la estructura de un documento__, no para darle instrucciones al ordenador.
+- Lenguaje de programación
+
+    Los __lenguajes de marcado__ se utilizan para __describir el contenido de un documento__, mientras que los __lenguajes de programación__ se utilizan para __definir el comportamiento de un programa informático__.
+    
+    <abbr title="Hypertext Markup Language">HTML</abbr> no tiene la capacidad de realizar <mark>cálculos</mark> o controlar el <mark>flujo</mark> de ejecución. HTML solo puede describir la estructura de un documento. Por lo tanto, HTML no es un lenguaje de programación.
 
 ### Nomenclatura 
 
