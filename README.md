@@ -16,6 +16,7 @@
 __Tabla de contenidos__
 
 - [¿Qué es HTML?](#¿qué-es-html)
+- [Atributos](#atributos)
 - [Comentarios en HTML](#comentarios-en-html)
 - [Etiquetas de formato](#html-format-tags)
 - [Etiquetas de encabezado](#head-tags)
@@ -31,24 +32,49 @@ __Tabla de contenidos__
 
 <dl>
     <dt>
-        <abbr title="Hipertext Language Markup">HTML</abbr>
+        <abbr title="Hypertext Language Markup">HTML</abbr>
     </dt>
     <dd>
-    <abbr title="Hypertext Markup Language">HTML</abbr> como indica su acrónimo (<em>Hipertext Markup Language</em>) es un <strong>lenguaje de marcas</strong> (ML) para describir la <strong>estructura</strong> de una página web. 
+    <abbr title="Hypertext Markup Language">HTML</abbr> como indica su acrónimo (<em>Hypertext Markup Language</em>) es un <strong>lenguaje de marcas</strong> (ML) para describir la <strong>estructura</strong> de una página web. <strong>Hypertext</strong> hace referencia a que el contenido <em>no sólo es texto</em> puesto que también contiene enlaces y otros elementos multimedia.
     </dd>
 </dl>
 
-En resumen __HTML__:
-- Utiliza __tags__
-- Por la característica anterior se le llama (Hypertext) __markup language__
-- __Estructura__ contenido
-
 El inventor de <abbr title="Hypertext Markup Language">HTML</abbr> fue __Tim Berners-Lee__. Y entre otros logros se encuentran __git__ o el _protocólo_ __http__
 
+En resumen __HTML__:
+- Es un __lenguaje de marcado__
+- Utiliza __tags__ como marcas
+- __Estructura__ contenido
+- El contenido es __hypertext__
+
+### Qué NO es HTML
+
+- Lenguaje de presentación. Esto es, no estiliza o diseña el contenido de una página
+
+    El diseño que observamos en el __user agent__ o navegador se debe a que estos programas llevan integrados sus propias __hojas de estilo__, el lenguaje que da estilo a las páginas.
+
+    ![Estilos predeterminados del navegador](./img/user-agent-stylesheet.jpg)
+
+- Lenguaje imperativo. Se escribe instrucción a instrucción lo que debe hacer el ordenador.
+   
+    __HTML__ no es un lenguaje imperativo porque se utiliza para __describir la estructura de un documento__, no para darle instrucciones al ordenador.
 
 ### Nomenclatura 
 
 ![nomemenclatura](./img/html-elements-diagram.webp)
+
+## Atributos
+
+Los __elementos__ en un documento __HTML__ además de contener __contenido__ también pueden tener características que añaden información adicional al propio elemento. Esta información adicional se guarda en los __atributos__
+
+Los __atributos__ siempre tienen un nombre y un valor. La convención es que dicho valor vaya entre comillas dobles aunque también pueden ir en comillas simples o simplemente sin comillas:
+
+```html
+<img src="./img/photo.jpg" alt="mi foto">
+<img src=./img/photo.jpg alt="mi foto">
+<img src='./img/photo.jpg' alt="mi foto">
+<img src="./img/photo.jpg" alt=mi foto> <!-- Incorrecto: Cuando el valor es más de una palabra-->
+```
 
 ### Atributos globales
 
@@ -89,13 +115,6 @@ Ejemplo básico de una __página web__, en este caso [hello world](hellow-world.
 </html>
 ```
 
-### Qué NO es HTML
-
-- Lenguaje de presentación. Esto es, no estiliza o diseña el contenido de una página
-
-El diseño que observamos en el __user agent__ o navegador se debe a que estos programas llevan integrados sus propias __hojas de estilo__, el lenguaje que da estilo a las páginas.
-
-![Estilos predeterminados del navegador](./img/user-agent-stylesheet.jpg)
 
 ## Comentarios en HTML
 
@@ -178,7 +197,7 @@ En el ejemplo de arriba utilizamos un atributo __rel__ con el valor de __norefer
 
 <!-- Definition List -->
 <dl>
-    <dt><abbr title="Hipertext Markup Language">HTML</abbr></dt>
+    <dt><abbr title="Hypertext Markup Language">HTML</abbr></dt>
     <dd>
         Se trata de un acrónimo es un "lenguaje de marcas" (ML) para <em>estructurar</em> (las propias etiquetas son semánticas) el contenido en dichas marcas
     <dd>
@@ -187,9 +206,9 @@ En el ejemplo de arriba utilizamos un atributo __rel__ con el valor de __norefer
 
 ## Etiquetas semánticas
 
-Hasta ahora hemos visto unas cuantas __etiquetas semánticas__, estos es, son __tags__ que otorgan significado al contenido que vamos creando en nuestras páginas web.
+Hemos visto unas cuantas __etiquetas semánticas__, esto es, son __tags__ que otorgan significado al contenido que vamos creando en nuestras páginas web.
 
-En __HTML5__ disponemos de nuevas etiquetas que dotan de significado a nuestras web y con lo que solemos construir nuestros __layouts__ (estructura principal de nuestra página):
+En __HTML5__ disponemos de nuevas etiquetas que dotan de significado a nuestras web y con lo que solemos construir nuestros __layouts__ (estructura principal de nuestra página). Veamos unas cuantas:
 
 ![Etiquetas semánticas](/img/estructura-html5.png)
 
