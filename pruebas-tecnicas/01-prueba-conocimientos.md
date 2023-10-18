@@ -21,7 +21,13 @@
 
 ## Cuestionario
 
-1. Si observamos el siguiente código <h1>Hello World</h1> hablamos de un:
+1. Si observamos el siguiente código 
+
+```html
+  <h1>Hello World</h1>
+```
+
+hablamos de un:
 
 - Element
 - Tag
@@ -31,14 +37,16 @@
 2. El atributo "lang" es global. (Verdadero/Falso)
 
 
-3. Indica los elementos incorrectos en el siguiente elemento
+3. Indica los elementos incorrectos en el siguiente elemento:
 
+```html
 <ul>
   <h2>Alimentos</h2>
   <li>Patatas</li>
   <li>Carne asada</li>
   <li>Turrón
 </ul>
+```
 
 4. Para qué sirve el elemento "strong"
 
